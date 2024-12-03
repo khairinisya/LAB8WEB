@@ -1,0 +1,37 @@
+/* CSS untuk table */
+table {
+    max-width: 100%;
+    border-collapse: collapse;
+}
+
+/* CSS untuk sel baris tabel */
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* CSS untuk sel baris pertama tabel */
+tr:first-child {
+    background-color: #ddd;
+}
+
+/* CSS untuk sel tabel */
+td, th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+/* CSS untuk header tabel */
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #ffffff;
+    color: #000000;
+}
+
+/* CSS untuk gambar */
+img {
+    width: 50px;
+    height: 50px;
+}
